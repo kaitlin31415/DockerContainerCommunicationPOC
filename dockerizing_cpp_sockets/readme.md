@@ -70,3 +70,5 @@ Step 6: Run the containers (server first)
 docker run --rm --net=user_def_nw -ti -P --name server1 cpp_server:1   
 docker run --rm --net=user_def_nw -ti --name cli1 cpp_client:1
 ```
+
+Source: https://forums.docker.com/t/client-server-program-each-running-as-a-container-not-able-to-communicate-with-each-other-using-posix-socket-api/14293
