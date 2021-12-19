@@ -4,7 +4,7 @@ docker network create user_def_nw
 ```
 Step 2: Find the netowork subset range:
 ```
-
+docker network inspect user_def_nw 
 ```
 
 You should get a result like this
